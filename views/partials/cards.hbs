@@ -1,13 +1,17 @@
-{{#each datosIndex}}
-<div class="card" style="width: 18rem;">
-    <img src="{{this.bandera}}" class="card-img-top" alt="...">
-    <div class="card-body">
-        <h5 class="card-title">{{this.pais}}</h5>
-        <p class="card-text">
-            <ul>
-                <li>{{this.capital}}</li>
-                <li>{{this.continente}}</li>
-            </ul>
-        </p>
+<div class="row gap-3 p-3">
+    {{#each datosIndex}}
+    <div class="card col" style="width: 20rem;">
+        <img src="{{this.bandera}}" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">{{this.pais}}</h5>
+            <p class="card-text">
+                <ul>
+                    <li>{{this.capital}}</li>
+                    <li>{{this.continente}}</li>
+                </ul>
+            </p>
+        </div>
+    </div>
+    {{/each}}
 </div>
-{{/each}}
+

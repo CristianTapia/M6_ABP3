@@ -8,14 +8,13 @@ hbs.registerPartials(__dirname+'/views/partials')
 const fs = require('fs');
 let rawdata = fs.readFileSync('data.json');
 let datos = JSON.parse(rawdata);
-console.log(datos);
+// console.log(datos);
 
 app.get('/', (req, res) => {
     res.render('index', { datosIndex: datos })
-})
-
+});
 
 app.listen('3000', () => {
-    console.log('Servicio levantado');
+    console.log('Servicio levantado')
 })
 

@@ -8,36 +8,43 @@
   "localidad2": {
     "continente": "América del Norte",
     "pais": "Estados Unidos",
-    "capital": "Washington DC"
+    "capital": "Washington DC",
+    "bandera": "https://www.banderas-mundo.es/data/flags/w702/us.webp"
   },
   "localidad3": {
     "continente": "América Central",
     "pais": "México",
-    "capital": "Ciudad de México"
+    "capital": "Ciudad de México",
+    "bandera": "https://www.banderas-mundo.es/data/flags/w702/mx.webp"
   },
   "localidad4": {
     "continente": "América del Sur",
     "pais": "Brasil",
-    "capital": "Brasilia"
+    "capital": "Brasilia",
+    "bandera": "https://www.banderas-mundo.es/data/flags/w702/br.webp"
   },
   "localidad5": {
     "continente": "Europa",
     "pais": "España",
-    "capital": "Madrid"
+    "capital": "Madrid",
+    "bandera": "https://www.banderas-mundo.es/data/flags/w702/es.webp"
   },
   "localidad6": {
     "continente": "Europa",
     "pais": "Alemania",
-    "capital": "Berlín"
+    "capital": "Berlín",
+    "bandera": "https://www.banderas-mundo.es/data/flags/w702/de.png"
   },
   "localidad7": {
     "continente": "Oceanía",
     "pais": "Australia",
-    "capital": "Camberra"
+    "capital": "Camberra",
+    "bandera": "https://www.banderas-mundo.es/data/flags/w702/au.webp"
   },
   "localidad8": {
     "continente": "Asia",
     "pais": "Japón",
-    "capital": "Tokio"
+    "capital": "Tokio",
+    "bandera": "https://www.banderas-mundo.es/data/flags/w702/jp.webp"
   }
 }
