@@ -1,42 +1,43 @@
 {
   "localidad1": {
-    "Continente": "África",
-    "País": "Angola",
-    "Capital": "Luanda"
+    "continente": "África",
+    "pais": "Angola",
+    "capital": "Luanda",
+    "bandera": "https://www.banderas-mundo.es/data/flags/w702/ao.webp"
   },
   "localidad2": {
-    "Continente": "América del Norte",
-    "País": "Estados Unidos",
-    "Capital": "Washington DC"
+    "continente": "América del Norte",
+    "pais": "Estados Unidos",
+    "capital": "Washington DC"
   },
   "localidad3": {
-    "Continente": "América Central",
-    "País": "México",
-    "Capital": "Ciudad de México"
+    "continente": "América Central",
+    "pais": "México",
+    "capital": "Ciudad de México"
   },
   "localidad4": {
-    "Continente": "América del Sur",
-    "País": "Brasil",
-    "Capital": "Brasilia"
+    "continente": "América del Sur",
+    "pais": "Brasil",
+    "capital": "Brasilia"
   },
   "localidad5": {
-    "Continente": "Europa",
-    "País": "España",
-    "Capital": "Madrid"
+    "continente": "Europa",
+    "pais": "España",
+    "capital": "Madrid"
   },
   "localidad6": {
-    "Continente": "Europa",
-    "País": "Alemania",
-    "Capital": "Berlín"
+    "continente": "Europa",
+    "pais": "Alemania",
+    "capital": "Berlín"
   },
   "localidad7": {
-    "Continente": "Oceanía",
-    "País": "Australia",
-    "Capital": "Camberra"
+    "continente": "Oceanía",
+    "pais": "Australia",
+    "capital": "Camberra"
   },
   "localidad8": {
-    "Continente": "Asia",
-    "País": "Japón",
-    "Capital": "Tokio"
+    "continente": "Asia",
+    "pais": "Japón",
+    "capital": "Tokio"
   }
 }

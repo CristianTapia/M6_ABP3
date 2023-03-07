@@ -1,6 +1,13 @@
+{{#each datosIndex}}
 <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-            <h5 class="card-title">{{pais}}</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <img src="{{this.bandera}}" class="card-img-top" alt="...">
+    <div class="card-body">
+        <h5 class="card-title">{{this.pais}}</h5>
+        <p class="card-text">
+            <ul>
+                <li>{{this.capital}}</li>
+                <li>{{this.continente}}</li>
+            </ul>
+        </p>
 </div>
+{{/each}}

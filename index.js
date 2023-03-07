@@ -7,11 +7,11 @@ hbs.registerPartials(__dirname+'/views/partials')
 // Recibir datos del archivo JSON
 const fs = require('fs');
 let rawdata = fs.readFileSync('data.json');
-let data = JSON.parse(rawdata);
-console.log(data.localidad1.Continente);
+let datos = JSON.parse(rawdata);
+console.log(datos);
 
 app.get('/', (req, res) => {
-    res.render('index', {pais: data.localidad1.País})
+    res.render('index', { datosIndex: datos })
 })
 
 
